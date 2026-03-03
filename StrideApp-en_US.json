@@ -9,6 +9,7 @@
     "password": "Password",
     "pwcharacters": "Your chosen password must contain at least 8 characters",
     "signup": "Sign Up",
-    "username": "Username and alias"
+    "username": "Username and alias",
+    "testString": "This is a test String",
   }
 }
