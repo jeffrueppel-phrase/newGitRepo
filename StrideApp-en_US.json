@@ -1,0 +1,14 @@
+{
+  "Stride take 3app": {
+    "agreement": "I have read and agreed to Stride’s Terms of Service and Privacy Notice. But I don’t like them.",
+    "email": {
+      "address": "Email address"
+    },
+    "login": "Already have an account? Log in ",
+    "offers": "I don’t wish to receive exclusive offers, promotions, reminders and more relating to Nekocafé.",
+    "password": "Password",
+    "pwcharacters": "Your chosen password must contain at least 8 characters",
+    "signup": "Sign Up",
+    "username": "Username and alias"
+  }
+}
