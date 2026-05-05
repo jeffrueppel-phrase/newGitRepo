@@ -7,8 +7,16 @@ phrase:
           file_format: simple_json
           locale_code: en-US
           autotranslate: false
+      - file: ./locales/en/nilo-strings-en.json
+        params:
+          file_format: nested_json
+          locale_code: en-US
+          autotranslate: false
   pull:
     targets:
       - file: ./<locale_code>.json
         params:
           file_format: simple_json
+      - file: ./locales/<locale_code>/nilo-strings-<locale_code>.json
+        params:
+          file_format: nested_json
