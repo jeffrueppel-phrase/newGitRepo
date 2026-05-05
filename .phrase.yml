@@ -5,12 +5,12 @@ phrase:
       - file: ./<locale_code>.json
         params:
           file_format: simple_json
-          locale_code: en-US
+          locale_id: en-US
           autotranslate: false
       - file: ./locales/en/nilo-strings-en.json
         params:
           file_format: nested_json
-          locale_code: en-US
+          locale_id: en-US
           autotranslate: false
   pull:
     targets:
