@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1800" MadCap:lastWidth="1020" lang="en-US" xml:lang="en-US">
+  <head>
+    <title>Release Notes – April 2026 / 20.26.04</title>
+    <meta name="description" content="Brightspace platform release notes for April 2026, version 20.26.04." />
+    <link href="../Resources/Stylesheets/Brightspace.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Release Notes – April 2026 / 20.26.04</h1>
+
+    <p>These release notes describe new features and updates available in the Brightspace April 2026 release. Features roll out progressively across regions according to the Wave Schedule.</p>
+
+    <MadCap:snippetBlock src="../Resources/Snippets/note-features-subject-to-change.flsnp" />
+
+    <h2>General Announcements</h2>
+
+    <p>New APIs are now available to manage Intelligent Agents across Brightspace. These APIs enable administrators to create, update, and delete Intelligent Agents, which simplifies the management and auditing of agents shared across the organization.</p>
+
+    <p>The Danish language pack has been updated to use more accurate terminology. The term <i>elev/elever</i> has been replaced with <i>studerende</i> across all instances in the platform interface.</p>
+
+    <p>The Payment Gateway functionality within Course Catalog has reached end of life. No other Course Catalog functionality is affected by this update. Contact your Customer Success Representative for migration guidance.</p>
+
+    <h2>Courses – Load More increments up to 250 courses at a time</h2>
+
+    <p><b>What changed:</b> Administrators can now load up to 250 courses at a time when performing bulk actions. Previously, only 50 courses could be loaded at a time.</p>
+
+    <p><b>Why it matters:</b> This improvement makes it faster to apply bulk actions such as changing course visibility or adjusting start and end dates across a large number of courses.</p>
+
+    <p><b>How to enable:</b> Set the <b>d2l.Tools.Courses.LoadmoreIncrement (OrgUnit)</b> configuration variable in Admin Tools to your preferred increment value, up to a maximum of 250.</p>
+
+    <h2>Quizzes – Improvements to the Quizzes Evaluation</h2>
+
+    <p><b>What changed:</b> The Quizzes Evaluation page has been updated with improved layout and usability enhancements based on feedback from the Product Idea Exchange.</p>
+
+    <p><b>Why it matters:</b> Instructors can now review and grade quiz attempts more efficiently. The updated interface reduces the number of clicks required to navigate between attempts.</p>
+
+    <p><b>How to enable:</b> These improvements are available to all clients and do not require additional configuration.</p>
+
+    <h2>D2L Lumi Content – Apply HTML templates to multiple pages in bulk</h2>
+
+    <p><b>What changed:</b> Authors can now apply HTML templates to multiple pages simultaneously within D2L Lumi Content.</p>
+
+    <p><b>Why it matters:</b> Applying a consistent visual style across a large course used to require updating each page individually. Bulk template application significantly reduces the time needed for course formatting updates.</p>
+
+    <p><b>How to enable:</b> In the D2L Lumi Content editor, select multiple pages and choose <b>Apply Template</b> from the <b>Actions</b> menu.</p>
+
+    <h2>Rubrics and Assessment APIs – Now stable</h2>
+
+    <p><b>What changed:</b> The four existing Rubrics and Assessment APIs are now marked as stable. Previously unstable versions are deprecated. The stable APIs are fully backward-compatible with the earlier unstable routes.</p>
+
+    <p><b>Why it matters:</b> Clients building integrations with Brightspace can now rely on versioned, stable API endpoints for rubric management without requiring changes to existing integration logic.</p>
+
+    <p><b>How to enable:</b> No changes are required for clients already using these APIs. Clients using unstable endpoints are encouraged to migrate to the versioned stable routes.</p>
+
+    <h2>Learning Outcomes Alignment APIs</h2>
+
+    <p><b>What changed:</b> New APIs allow institutions to manage and audit Learning Outcomes alignments at scale. Developers and administrators can now bulk align or remove outcomes from learning activities and retrieve where outcomes are currently aligned across courses, assessments, and content modules.</p>
+
+    <p><b>Why it matters:</b> Reporting on outcomes alignment previously required manual review across individual courses. These new endpoints support retrieving alignments by outcome set, by specific outcome, or across an entire course, with results aggregated to simplify reporting and impact analysis.</p>
+
+    <h2>Related Topics</h2>
+
+    <ul>
+      <li><a href="release-notes-march-2026.htm">Release Notes – March 2026 / 20.26.03</a></li>
+      <li><a href="intelligent-agents-overview.htm">Intelligent Agents Overview</a></li>
+      <li><a href="courses-tool-overview.htm">Courses Tool Overview</a></li>
+      <li><a href="rubrics-overview.htm">Rubrics Overview</a></li>
+    </ul>
+
+  </body>
+</html>
