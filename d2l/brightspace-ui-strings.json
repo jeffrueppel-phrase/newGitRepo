@@ -1,0 +1,149 @@
+{
+  "_metadata": {
+    "description": "Brightspace LMS UI strings — English (en-US)",
+    "version": "20.26.04",
+    "last_updated": "2026-04-01",
+    "component": "core-platform"
+  },
+
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "calendar": "Calendar",
+    "inbox": "Inbox",
+    "notifications": "Notifications",
+    "profile": "My Profile",
+    "admin_tools": "Admin Tools",
+    "help": "Help",
+    "logout": "Log Out"
+  },
+
+  "courses": {
+    "page_title": "Courses",
+    "create_course": "Create a Course",
+    "load_more": "Load More",
+    "load_more_count": "Load {count} more courses",
+    "no_courses_found": "No courses found.",
+    "search_placeholder": "Search for a course...",
+    "filter_label": "Filter by",
+    "sort_label": "Sort by",
+    "course_name_label": "Course Name",
+    "course_code_label": "Course Code",
+    "start_date_label": "Start Date",
+    "end_date_label": "End Date",
+    "status_active": "Active",
+    "status_hidden": "Hidden",
+    "status_inactive": "Inactive",
+    "change_visibility": "Change Visibility",
+    "bulk_edit_dates": "Edit Dates",
+    "more_actions": "More Actions",
+    "select_all": "Select All",
+    "courses_selected": "{count} courses selected",
+    "enroll_learners": "Enroll Learners",
+    "add_participants": "Add Participants",
+    "add_existing_users": "Add existing users"
+  },
+
+  "intelligent_agents": {
+    "page_title": "Intelligent Agents",
+    "new_agent": "New Agent",
+    "agent_name_label": "Agent Name",
+    "agent_description_label": "Description (optional)",
+    "agent_enabled_label": "Agent is enabled",
+    "criteria_section": "Criteria",
+    "schedule_section": "Schedule",
+    "actions_section": "Actions",
+    "run_now": "Run Now",
+    "practice_run": "Practice Run",
+    "practice_run_description": "Test your criteria without sending emails to learners.",
+    "copy_to_other_courses": "Copy to Other Courses",
+    "save_and_close": "Save and Close",
+    "cancel": "Cancel",
+    "criteria_login_activity": "Login activity",
+    "criteria_course_activity": "Course activity",
+    "criteria_grade_threshold": "Grade threshold",
+    "schedule_once": "Run once",
+    "schedule_recurring": "Recurring",
+    "schedule_continuous": "Continuous",
+    "no_agents_found": "No Intelligent Agents have been created for this course.",
+    "agent_last_run": "Last run: {date}",
+    "agent_next_run": "Next run: {date}"
+  },
+
+  "quizzes": {
+    "page_title": "Quizzes",
+    "new_quiz": "New Quiz",
+    "quiz_name_label": "Quiz Name",
+    "time_limit_label": "Time Limit",
+    "attempts_allowed_label": "Attempts Allowed",
+    "unlimited": "Unlimited",
+    "submit_quiz": "Submit Quiz",
+    "exit_quiz_confirm_title": "Exit Quiz?",
+    "exit_quiz_confirm_body": "If you exit now, your progress will be saved and you can return to this quiz.",
+    "exit_quiz_confirm_action": "Exit and Save Progress",
+    "exit_quiz_cancel": "Continue Quiz",
+    "quiz_evaluation_title": "Quiz Evaluation",
+    "attempt_label": "Attempt {number}",
+    "score_label": "Score",
+    "feedback_label": "Feedback",
+    "grade_attempt": "Grade Attempt"
+  },
+
+  "rubrics": {
+    "page_title": "Rubrics",
+    "new_rubric": "New Rubric",
+    "rubric_name_label": "Rubric Name",
+    "criteria_label": "Criteria",
+    "performance_level_label": "Performance Level",
+    "points_label": "Points",
+    "visibility_label": "Visibility",
+    "visible_to_learners": "Visible to learners",
+    "hidden_from_learners": "Hidden from learners",
+    "save_rubric": "Save Rubric",
+    "delete_rubric": "Delete Rubric",
+    "delete_confirm": "Are you sure you want to delete this rubric? This action cannot be undone."
+  },
+
+  "classlist": {
+    "page_title": "Classlist",
+    "search_users": "Search for users by name or email address",
+    "role_label": "Role",
+    "role_learner": "Learner",
+    "role_instructor": "Instructor",
+    "role_auditor": "Auditor",
+    "enroll_selected": "Enroll Selected Users",
+    "unenroll_selected": "Unenroll Selected Users",
+    "export_classlist": "Export to CSV",
+    "last_accessed": "Last Accessed",
+    "never_accessed": "Never accessed"
+  },
+
+  "notifications": {
+    "mark_all_read": "Mark all as read",
+    "no_notifications": "You have no new notifications.",
+    "new_announcement": "New announcement in {course}",
+    "assignment_due_soon": "Assignment due in {hours} hours: {assignment}",
+    "grade_released": "Your grade for {assessment} has been released.",
+    "agent_email_sent": "Intelligent Agent email sent to {count} learners."
+  },
+
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "session_expired": "Your session has expired. Please log in again.",
+    "permission_denied": "You do not have permission to perform this action.",
+    "course_not_found": "The course you requested could not be found.",
+    "save_failed": "Your changes could not be saved. Please try again.",
+    "connection_error": "Unable to connect to the server. Check your network connection and try again."
+  },
+
+  "accessibility": {
+    "skip_to_main": "Skip to main content",
+    "close_dialog": "Close dialog",
+    "loading": "Loading...",
+    "required_field": "This field is required.",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "sort_ascending": "Sort ascending",
+    "sort_descending": "Sort descending"
+  }
+}
